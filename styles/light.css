@@ -30,7 +30,8 @@
   --accent-color: rgb(255, 141, 203);
   --title-color: rgb(255, 194, 230);
   --nav-color: rgb(53, 52, 48);
-  --section-title-color:rgb(53, 52, 48);}
+  --section-title-color:rgb(53, 52, 48);
+  }
 
   .decorated-label {
     display: none;
