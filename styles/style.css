@@ -208,7 +208,7 @@
 }
 
 @media (width >= 768px) {
-  .header  {
+  .header {
     grid-template-rows: 443px 1fr 442px;
   }
 
@@ -217,7 +217,7 @@
     right: 48px;
   }
 
-  .main__title  {
+  .main__title {
     justify-self: start;
     align-self: start;
     margin-inline-start: -20px;
@@ -243,7 +243,7 @@
     grid-column: 2/3;
   }
   
-  .other-scheme-card {
+  .other-scheme-section__card {
     grid-column: 1/3;
   }
 
