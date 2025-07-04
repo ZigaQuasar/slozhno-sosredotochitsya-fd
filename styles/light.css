@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url(../images/cover-image-light.png);
+  --display-rec: none;
   --bg-color: rgb(255, 241, 247);
   --secondary-color: rgb(53, 52, 48);
   --main-text-color: rgb(53, 52, 48);
@@ -17,15 +18,13 @@
   --title-color: rgb(255, 194, 230);
   --nav-color: rgb(53, 52, 48);
   --section-title-color:rgb(53, 52, 48);
-}
-
-.theme-light .decorated-label {
-  display: none;
+  --border-color-button-hover: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
   --bg-image: url(../images/cover-image-light.png);
+  --display-rec: none;
   --bg-color: rgb(255, 241, 247);
   --secondary-color: rgb(53, 52, 48);
   --main-text-color: rgb(53, 52, 48);
@@ -33,9 +32,6 @@
   --title-color: rgb(255, 194, 230);
   --nav-color: rgb(53, 52, 48);
   --section-title-color:rgb(53, 52, 48);
-  }
-
-  .decorated-label {
-    display: none;
+  --border-color-button-hover: rgba(50, 49, 45, 0.4);
   }
 }

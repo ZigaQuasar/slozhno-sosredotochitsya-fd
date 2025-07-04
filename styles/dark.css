@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url(../images/cover-image-dark.png);
+  --display-rec: block;
   --bg-color: rgb(0, 0, 40);
   --secondary-color: rgb(0, 0, 40);
   --main-text-color: rgb(241, 178, 206);
@@ -17,32 +18,5 @@
   --title-color: rgb(219, 0, 255);
   --nav-color: rgb(255, 0, 112);
   --section-title-color:rgb(255, 0, 112);
-}
-
-.theme-dark .decorated-label {
-  display: block;
-  position: absolute;
-  top: 10px;
-  right: 38px;
-  color: var(--accent-color);
-  line-height: 25px;
-}
-
-.theme-dark .decorated-label::after {
-  content: '';
-  background-color: var(--accent-color);
-  inline-size: 9px;
-  block-size: 9px;
-  box-shadow: 0px 0px 4px 2px var(--accent-color);
-  position: absolute;
-  left: 43px;
-  top: 8px;
-  border-radius: 50%;
-}
-
-@media (width >= 768px) {
-  .theme-dark .decorated-label {
-    top: 20px;
-    right: 48px;
-  }
+  --border-color-button-hover: rgba(255, 0, 112, 0.4);
 }

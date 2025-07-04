@@ -4,6 +4,7 @@
 */
 :root {
   --bg-image: url(../images/cover-image-dark.png);
+  --display-rec: block;
   --bg-color: rgb(0, 0, 40);
   --secondary-color: rgb(0, 0, 40);
   --main-text-color: rgb(241, 178, 206);
@@ -11,11 +12,12 @@
   --title-color: rgb(219, 0, 255);
   --nav-color: rgb(255, 0, 112);
   --section-title-color:rgb(255, 0, 112);
+  --border-color-button-hover: rgba(255, 0, 112, 0.4);
   --main-text-size: 18px;
-  --font-family: IBM Plex Mono;
+  --font-family: "IBM Plex Mono";
   --title-font-weight: 700;
   --font-weight: 400;
-  --line-height: 23.4px;
+  --line-height: 1.3;
   --section-gap: 50px;
   --card-gap: 20px;
   --card-title-gap: 10px;
